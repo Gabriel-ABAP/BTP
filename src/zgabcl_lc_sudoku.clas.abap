@@ -30,7 +30,6 @@ CLASS zgabcl_lc_sudoku DEFINITION
 ENDCLASS.
 
 
-
 CLASS zgabcl_lc_sudoku IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
 
