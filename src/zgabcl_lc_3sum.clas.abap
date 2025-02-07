@@ -56,9 +56,11 @@ CLASS zgabcl_lc_3sum IMPLEMENTATION.
               ls_out = lv_parc1 && ',' &&
                        lv_parc2 && ',' &&
                        lv_parc3.
+
               APPEND ls_out TO lt_out.
               lv_next_triplet = abap_true.
               EXIT.
+
             ENDIF.
             "Result must contain 3 elements
           ENDIF.
